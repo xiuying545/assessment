@@ -31,7 +31,7 @@ public class AssessmentApplication {
 								.scheme("basic")
 				))
 				.info(new Info()
-						.title("Assesment REST API")
+						.title("Assesment API")
 						.version(appVersion)
 						.license(new License()
 								.name("Apache 2.0")
