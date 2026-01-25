@@ -1,14 +1,2 @@
-2026-01-25 17:24:01 INFO  API REQUEST ? method=GET uri=/api/products/1 body=
-2026-01-25 17:24:01 INFO  API RESPONSE ? status=200 duration=471ms body={"id":1,"bookTitle":"Kafka Mastery","bookPrice":49.99,"bookQuantity":100}
-2026-01-25 17:24:15 INFO  API REQUEST ? method=GET uri=/api/products/1 body=
-2026-01-25 17:24:15 INFO  API RESPONSE ? status=200 duration=13ms body={"id":1,"bookTitle":"Kafka Mastery","bookPrice":49.99,"bookQuantity":100}
-2026-01-25 19:54:27 INFO  API REQUEST ? method=POST uri=/api/products body={
-  "bookTitle": "Spring Boot in Action",
-  "bookPrice": 59.99,
-}
-2026-01-25 19:54:27 INFO  API RESPONSE ? status=400 duration=78ms body={"timestamp":"2026-01-25T19:54:27.8042908","message":"JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name","details":"uri=/api/products"}
-2026-01-25 19:54:36 INFO  API REQUEST ? method=POST uri=/api/products body={
-  "bookTitle": "Spring Boot in Action",
-  "bookPrice": 59.99
-}
-2026-01-25 19:54:36 INFO  API RESPONSE ? status=400 duration=7ms body={"timestamp":"2026-01-25T19:54:36.2865813","message":"Book quantity must not be null","details":"uri=/api/products"}
+2026-01-26 00:00:27 INFO  API REQUEST ? method=DELETE uri=/api/products/1 body=
+2026-01-26 00:00:27 INFO  API RESPONSE ? status=200 duration=190ms body=
