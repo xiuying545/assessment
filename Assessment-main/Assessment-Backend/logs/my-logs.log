@@ -1,0 +1,35 @@
+2026-01-25 15:47:58 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 23208 (C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 15:47:58 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 15:48:06 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 8.568 seconds (process running for 8.904)
+2026-01-25 15:48:35 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 13100 (C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 15:48:35 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 15:48:42 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 7.053 seconds (process running for 7.352)
+2026-01-25 15:50:24 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 8476 (C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 15:50:24 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 15:50:31 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 7.01 seconds (process running for 7.34)
+2026-01-25 15:50:39 INFO  c.a.service.impl.ProductServiceImpl - Fetching product from DB, id=1
+2026-01-25 15:51:39 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 28160 (C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 15:51:39 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 15:51:46 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 7.545 seconds (process running for 7.864)
+2026-01-25 17:22:04 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 16680 (C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 17:22:04 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 17:22:13 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 8.783 seconds (process running for 9.157)
+2026-01-25 17:24:01 INFO  c.a.service.impl.ProductServiceImpl - Fetching product from DB, id=1
+2026-01-25 20:23:17 INFO  c.a.AssessmentApplicationTests - Starting AssessmentApplicationTests using Java 17.0.12 with PID 24812 (started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment-Etiqa\Assessment-Etiqa-main\Assessment-Backend)
+2026-01-25 20:23:17 INFO  c.a.AssessmentApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-25 20:23:28 INFO  c.a.AssessmentApplicationTests - Started AssessmentApplicationTests in 11.803 seconds (process running for 12.953)
+2026-01-25 20:23:30 WARN  c.a.service.impl.ProductServiceImpl - WARN: Product not found with id: 1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Product fetched ? id=1, title=Java
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - SUCCESS: Product created ? id=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Sending Kafka event for productId=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - START: Updating product ? id=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Product fetched ? id=1, title=Old
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - SUCCESS: Updated product ? id=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - START: Deleting product ? id=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Product fetched ? id=1, title=null
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - SUCCESS: Deleted product ? id=1
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Fetching all products from DB
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - Fetched 2 products
+2026-01-25 20:23:30 INFO  c.a.service.impl.ProductServiceImpl - START: Deleting product ? id=1
+2026-01-25 20:23:30 WARN  c.a.service.impl.ProductServiceImpl - WARN: Product not found with id: 1
+2026-01-25 20:23:30 WARN  c.a.service.impl.ProductServiceImpl - WARN: Product not found with id: 1
