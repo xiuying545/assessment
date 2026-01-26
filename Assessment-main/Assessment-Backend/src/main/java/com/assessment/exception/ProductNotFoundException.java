@@ -3,7 +3,7 @@ package com.assessment.exception;
 public class ProductNotFoundException extends RuntimeException{
 
 	public ProductNotFoundException() {
-		// TODO Auto-generated constructor stub
+		super();
 	}
 	
 	public ProductNotFoundException(String message){
