@@ -52,4 +52,16 @@ public class ProductRepositoryImpl implements ProductRepository {
         }
         entityManager.remove(product);
     }
+
+    @Override
+    public Optional<Product> findByBookTitle(String bookTitle) {
+        return entityManager
+                .createQuery(
+                        "SELECT p FROM Product p WHERE p.bookTitle = :bookTitle",
+                        Product.class
+                )
+                .setParameter("bookTitle", bookTitle)
+                .getResultStream()
+                .findFirst();
+    }
 }

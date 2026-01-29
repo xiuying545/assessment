@@ -1775,3 +1775,16 @@ Caused by: org.apache.kafka.common.errors.TimeoutException: Topic product-create
 2026-01-26 00:00:27 INFO  c.a.service.impl.ProductServiceImpl - START: Deleting product ? id=1
 2026-01-26 00:00:27 INFO  c.a.service.impl.ProductServiceImpl - Product fetched ? id=1, title=Kafka Mastery
 2026-01-26 00:00:27 INFO  c.a.service.impl.ProductServiceImpl - SUCCESS: Deleted product ? id=1
+2026-01-29 11:05:19 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 5836 (C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend)
+2026-01-29 11:05:19 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 11:05:28 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 9.979 seconds (process running for 10.468)
+2026-01-29 11:34:30 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 16012 (C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend)
+2026-01-29 11:34:30 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 11:34:38 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 7.607 seconds (process running for 7.946)
+2026-01-29 11:35:15 INFO  c.a.service.impl.ProductServiceImpl - Product already exists ? id=3
+2026-01-29 11:35:20 INFO  c.a.service.impl.ProductServiceImpl - Product already exists ? id=3
+2026-01-29 11:35:22 INFO  c.a.service.impl.ProductServiceImpl - Product already exists ? id=3
+2026-01-29 11:40:18 INFO  c.assessment.AssessmentApplication - Starting AssessmentApplication using Java 17.0.12 with PID 17008 (C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend\target\classes started by SCSM11 in C:\Users\SCSM11\Downloads\Assessment\Assessment-main\Assessment-Backend)
+2026-01-29 11:40:18 INFO  c.assessment.AssessmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-29 11:40:24 INFO  c.assessment.AssessmentApplication - Started AssessmentApplication in 7.148 seconds (process running for 7.463)
+2026-01-29 11:53:27 INFO  c.a.service.impl.CustomerServiceImpl - Customer already exists ? id=1

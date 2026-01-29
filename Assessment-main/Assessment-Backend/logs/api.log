@@ -1,2 +1,25 @@
-2026-01-26 00:00:27 INFO  API REQUEST ? method=DELETE uri=/api/products/1 body=
-2026-01-26 00:00:27 INFO  API RESPONSE ? status=200 duration=190ms body=
+2026-01-29 11:35:15 INFO  API REQUEST ? method=POST uri=/api/products body={
+  "bookTitle": "Spring Boot in Action",
+  "bookPrice": 59.99,
+  "bookQuantity": 100
+}
+2026-01-29 11:35:15 INFO  API RESPONSE ? status=200 duration=546ms body={"id":3,"bookTitle":"Spring Boot in Action","bookPrice":59.99,"bookQuantity":100}
+2026-01-29 11:35:20 INFO  API REQUEST ? method=POST uri=/api/products body={
+  "bookTitle": "Spring Boot in Action",
+  "bookPrice": 59.99,
+  "bookQuantity": 100
+}
+2026-01-29 11:35:20 INFO  API RESPONSE ? status=200 duration=7ms body={"id":3,"bookTitle":"Spring Boot in Action","bookPrice":59.99,"bookQuantity":100}
+2026-01-29 11:35:22 INFO  API REQUEST ? method=POST uri=/api/products body={
+  "bookTitle": "Spring Boot in Action",
+  "bookPrice": 59.99,
+  "bookQuantity": 100
+}
+2026-01-29 11:35:22 INFO  API RESPONSE ? status=200 duration=7ms body={"id":3,"bookTitle":"Spring Boot in Action","bookPrice":59.99,"bookQuantity":100}
+2026-01-29 11:53:27 INFO  API REQUEST ? method=POST uri=/api/customers body={
+  "firstName": "John Doe",
+  "lastName": "lastName",
+  "personalEmail": "john.doe@example.com",
+  "phone": "1234567890"
+}
+2026-01-29 11:53:27 INFO  API RESPONSE ? status=200 duration=581ms body={"id":1,"firstName":"John Doe","lastName":"lastName","officeEmail":null,"personalEmail":"john.doe@example.com","familyMembers":null}

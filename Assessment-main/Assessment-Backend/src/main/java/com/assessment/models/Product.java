@@ -15,7 +15,12 @@ import java.math.BigDecimal;
 
 
 @Entity
-@Table(name = "products")
+@Table(
+		name = "products",
+		uniqueConstraints = {
+				@UniqueConstraint(columnNames = "book_title")
+		}
+)
 @Getter
 @Setter
 @NoArgsConstructor
@@ -27,7 +32,7 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(name = "book_title", nullable = false)
+	@Column(name = "book_title", nullable = false, unique = true)
 	private String bookTitle;
 
 

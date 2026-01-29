@@ -11,4 +11,5 @@ public interface ProductRepository {
     List<Product> findAll();
     Product save(Product product);
     void delete(Product product);
+    Optional<Product> findByBookTitle(String bookTitle);
 }

@@ -1,6 +1,7 @@
 package com.assessment.service.impl;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.assessment.exception.ProductNotFoundException;
 import com.assessment.kafka.ProductEventProducer;import com.assessment.service.ProductService;
@@ -26,6 +27,17 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public Product create(Product product) {
 		try {
+			Optional<Product> existing =
+					productRepository.findByBookTitle(product.getBookTitle());
+
+			if (existing.isPresent()) {
+				log.info(
+						"Product already exists → id={}",
+						existing.get().getId()
+				);
+				return existing.get();
+			}
+
 			Product saved = productRepository.save(product);
 			log.info("SUCCESS: Product created → id={}", saved.getId());
 

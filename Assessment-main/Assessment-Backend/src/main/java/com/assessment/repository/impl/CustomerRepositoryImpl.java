@@ -51,4 +51,16 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         }
         entityManager.remove(customer);
     }
+
+    @Override
+    public Optional<Customer> findByEmail(String personalEmail) {
+        return entityManager
+                .createQuery(
+                        "SELECT c FROM Customer c WHERE c.personalEmail = :personalEmail",
+                        Customer.class
+                )
+                .setParameter("personalEmail", personalEmail)
+                .getResultStream()
+                .findFirst();
+    }
 }

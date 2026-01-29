@@ -9,6 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Slf4j
 @Service
@@ -22,6 +23,17 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public Customer create(Customer customer) {
 		try {
+			Optional<Customer> existing =
+					customerRepository.findByEmail(customer.getPersonalEmail());
+
+			if (existing.isPresent()) {
+				log.info(
+						"Customer already exists → id={}",
+						existing.get().getId()
+				);
+				return existing.get();
+			}
+
 			Customer saved = customerRepository.save(customer);
 			log.info("SUCCESS: Customer created → id={}", saved.getId());
 			return saved;

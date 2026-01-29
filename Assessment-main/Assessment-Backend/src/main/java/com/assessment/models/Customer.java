@@ -7,7 +7,12 @@ import lombok.NoArgsConstructor;
 import lombok.*;
 
 @Entity
-@Table(name = "customers")
+@Table(
+		name = "customers",
+		uniqueConstraints = {
+				@UniqueConstraint(columnNames = "personal_email")
+		}
+)
 @Getter
 @Setter
 @NoArgsConstructor
